@@ -1,0 +1,18 @@
+{
+  "name": "theia-docs",
+  "version": "0.0.1",
+  "description": "Theia documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "theia"
+  },
+  "repository": "https://github.com/theia-labs/theia-labs.github.io",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
